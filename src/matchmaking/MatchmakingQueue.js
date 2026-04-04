@@ -1,6 +1,6 @@
 const { buildQueueJoined, buildQueueLeft } = require('../protocol/MessageBuilder');
 
-const DEFAULT_PLAYERS_PER_MATCH = 4;
+const DEFAULT_PLAYERS_PER_MATCH = 3;
 const DEFAULT_QUEUE_TIMEOUT_MS = 8000;
 const QUEUE_CHECK_INTERVAL_MS = 1000;
 

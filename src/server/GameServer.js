@@ -7,7 +7,7 @@ const { MatchManager } = require('../match/MatchManager');
 class GameServer {
   constructor(options = {}) {
     this.port = options.port || 8080;
-    this.playersPerMatch = options.playersPerMatch || 4;
+    this.playersPerMatch = options.playersPerMatch || 3;
     this.queueTimeoutMs = options.queueTimeoutMs || 8000;
     this.wss = null;
     this.connectionManager = new ConnectionManager();

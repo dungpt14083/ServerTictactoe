@@ -2,7 +2,7 @@ const { GameServer } = require('./src/server/GameServer');
 
 const server = new GameServer({
   port: parseInt(process.env.PORT || '8080'),
-  playersPerMatch: parseInt(process.env.PLAYERS_PER_MATCH || '4'),
+  playersPerMatch: parseInt(process.env.PLAYERS_PER_MATCH || '3'),
   queueTimeoutMs: parseInt(process.env.QUEUE_TIMEOUT_MS || '8000'),
 });
 
